@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<script src="practice.js"></script>
+</head>
+<body>
+<div class="container">
+	
+	<h1>Practice Activity</h1>
+
+		<div class="form-group">
+		  <label >User Name:</label>
+			<input type="text" placeholder="Username" id="user_name" class="form-control">
+			<br>
+			<label>Age:</label>
+			<input type="text" placeholder="Age" id="user_age" class="form-control">
+			<br>
+			<label>Grade:</label>
+			<input type="text" placeholder="Grade" id="user_grade" class="form-control">
+			<br>
+			<label>Hobbies:</label>
+			<input type="text" placeholder="Hobbies" id="user_hobbies" class="form-control">
+			<br>
+			<label>School:</label>
+			<input type="text" placeholder="School" id="user_school" class="form-control">
+			<br>
+			<label>Date:</label>
+			<input type="text" placeholder="Date" id="user_time" class="form-control">
+		</div>
+
+		<button class="btn btn-success" onclick="addUser()">Add User Name</button>
+
+</div>
+
+</body>
+</html>
